@@ -36,7 +36,7 @@ func (c *CSVProcessor) Step2() {
 	fmt.Println("CSV Step2: Parse and store data")
 }
 
-// --- JSONPRocessor 実装 ---
+// --- JSONProcessor 実装 ---
 type JSONProcessor struct{}
 
 func (j *JSONProcessor) Step1() {
@@ -44,7 +44,7 @@ func (j *JSONProcessor) Step1() {
 }
 
 func (j *JSONProcessor) Step2() {
-	fmt.Println("JSON Step2: Convert and save toDB")
+	fmt.Println("JSON Step2: Convert and save to DB")
 }
 
 func main() {
