@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // Go における interface を使った動的ディスパッチ（Duck Typing 的発想） を示すシンプルなサンプルプログラム
 // ある振る舞い（メソッド）を持つ限り、それを使う側は具体的な型を気にせず扱えることを表現している
